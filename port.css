@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+nav{
+    display:flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.one {
+    display: inline-block;
+    text-align: center;
+}
+.one img{
+    max-width: 90px;
+    border-radius: 220px;
+   margin-left: -300px;
+}
+.two{
+    display: inline-block;
+    position: relative;
+    left: -250px;
+}
+.two h1{
+    font-size: 35px;
+
+}
+.two h6{
+    font-size: 20px;
+}
+.menu{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+      margin-top: 20px;
+}
+.menu ul li{
+    display: inline-block;
+ padding: 0px 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+section{
+    background-color: whitesmoke;
+    border-radius: 30px;
+    align-items: center;
+    margin:10px 10px;
+}
+.abo{
+    padding: 30px;
+}
+.abo1{
+    text-align: center;
+    padding: 30px;
+}
+.abo1 button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.abo1 button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
